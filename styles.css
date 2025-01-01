@@ -9,7 +9,7 @@
 .container{
     height:460vh;
     width:100vw;
-    overflow-x:none;
+    overflow-x:scroll;
     background-color: #e2c4e2;
     background-image: linear-gradient(0deg, #e2c4e2 0%, #ebfdff 100%);
     
