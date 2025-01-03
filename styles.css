@@ -12,8 +12,7 @@
     overflow-x:scroll;
     background-color: #e2c4e2;
     background-image: linear-gradient(0deg, #e2c4e2 0%, #ebfdff 100%);
-    
-    
+
 }
 .navContainer{
     width:100vw;
@@ -65,7 +64,7 @@ a{
 .foot
 {
     background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     width: 100%;
     text-align: center;
     min-height: 40px;
@@ -93,6 +92,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .right
 {
@@ -122,7 +122,7 @@ background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
 .left h2{
     font-size: 2rem;
 }
-ul{}
+ul{
     font-size: 1rem;
     list-style-type: square;
     font-style: italic;
@@ -155,4 +155,10 @@ ol{
 {
     opacity: 1;
     transition:all 0.6s linear 0s;
+}
+@media(max-width:500px){
+    .items
+    {
+        flex-direction: column;
+    }
 }
